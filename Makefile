@@ -19,6 +19,7 @@ clean:
 
 format:
 	$(PYTHON) -m ruff format .
+	$(PYTHON) -m isort .
 
 lint:
 	$(PYTHON) -m ruff check .
