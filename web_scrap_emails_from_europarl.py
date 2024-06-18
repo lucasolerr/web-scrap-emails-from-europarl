@@ -4,14 +4,15 @@
 # Description: Ce script récupère les adresses email des membres du Parlement européen depuis une page donnée (ici pour les députés français).
 #              Il parcourt les profils des membres et extrait les adresses email disponibles.
 
+import shutil
+
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
-import shutil
 
 
 def get_emails_from_europarl(url):
