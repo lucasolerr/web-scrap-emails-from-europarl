@@ -25,12 +25,13 @@ Ce script Python utilise Selenium pour récupérer les adresses email des membre
     make run
     ```
 
-4. Commandes supplémentaires
-Formater le code avec ruff :
+### Commandes supplémentaires
+
+- Formater le code avec ruff :
     ```bash
     make format
     ```
-5. Linter le code avec ruff :
+- Linter le code avec ruff :
     ```bash
     make format
     ```
