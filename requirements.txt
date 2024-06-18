@@ -1,3 +1,4 @@
+isort==5.13.2
 selenium==4.21.0
 ruff==0.4.9
 webdriver-manager==4.0.1
