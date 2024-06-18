@@ -37,6 +37,6 @@ Ce script Python utilise Selenium pour récupérer les adresses email des membre
     ```
 
 ## Structure du projet
-- web-selenium.py : Script principal pour récupérer les emails des membres.
+- web_scrap_emails_from_europarl.py : Script principal pour récupérer les emails des membres.
 - requirements.txt : Liste des dépendances Python requises.
 - Makefile : Fichier pour automatiser les tâches comme l'installation, l'exécution, le formatage et le linter du code.
